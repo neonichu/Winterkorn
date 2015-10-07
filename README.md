@@ -5,12 +5,24 @@ in Swift. Heavily inspird by [Phpunit VW Extension][1].
 
 ## Usage
 
-Just add it to your test target in your Podfile:
+Just add it to any test targets in your Podfile:
 
 ```ruby
+use_frameworks!
+
 target 'Tests' do
   pod 'Winterkorn'
 end
+```
+
+, add it to your `setUp` method:
+
+```swift
+override func setUp() {
+	super.setUp()
+
+	let _ = Winterkorn()
+}
 ```
 
 and you never have to fix those pesky tests again. Now TDD is truly

@@ -7,8 +7,8 @@
 
 import XCTest
 
-class __Winterkorn: NSObject {
-    override class func initialize() {
+public class Winterkorn: NSObject {
+    public override class func initialize() {
         let empty_block : @convention(block) () -> () = { () -> () in }
         let emptyIMP = imp_implementationWithBlock(unsafeBitCast(empty_block, AnyObject.self))
         let enqueueFailure_method = class_getInstanceMethod(XCTestCase.self, "_enqueueFailureWithDescription:inFile:atLine:expected:")
