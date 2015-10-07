@@ -3,6 +3,14 @@
 A library for increasing the speed and urgency of your development
 in Swift. Heavily inspird by [Phpunit VW Extension][1].
 
+Before:
+
+![](images/before.png)
+
+After:
+
+![](images/after.png)
+
 ## Usage
 
 Just add it to any test targets in your Podfile:
