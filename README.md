@@ -23,7 +23,7 @@ target 'Tests' do
 end
 ```
 
-, add it to your `setUp` method:
+add it to your `setUp` method:
 
 ```swift
 override func setUp() {
