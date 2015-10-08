@@ -1,7 +1,7 @@
 # Winterkorn
 
 A library for increasing the speed and urgency of your development
-in Swift. Heavily inspird by [Phpunit VW Extension][1].
+in Swift. Heavily inspired by [Phpunit VW Extension][1].
 
 Before:
 
